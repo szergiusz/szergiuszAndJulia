@@ -1,0 +1,486 @@
+body {
+	margin:0; 
+}
+.header {
+	background-color: #FAFAFA;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom:0;
+	height: 40px;
+}
+.header * {
+	display: inline-block;
+	margin-bottom:0;
+}
+.header p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 25px;
+	width: 15%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 0;
+	margin-bottom: 0;
+	vertical-align: middle;
+}
+.header .navigation {
+	width: 50%;
+	vertical-align: middle;
+}
+.header .navigation a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #2E9AFE;
+	transition: margin 1s ;
+}
+.header .navigation a:hover{
+	color: #FFBF00;
+	margin: 0 10px;
+	size: 50px;
+}
+.header .navigation .dote::after {
+	content: "  . " ;
+	position: relative;
+	bottom: 5px;
+	color: black;
+}
+
+.header button {
+	width: 5%;
+	height: 40px;
+	vertical-align: middle;
+	background-color: #2E9AFE;
+	border: 0;
+	border-radius:5px;
+	color: #FAFAFA;
+	margin-left: 8%;
+	margin-right:5%;
+	margin-bottom: 0;
+}
+.header button:hover {
+	background-color: #0080FF;
+}
+.header .hide {
+	display: none;
+}
+.header .mobile {
+	display: none;
+}
+
+
+.header #hamburger{
+	width: auto;
+	top: 10px;
+	right: 10px;
+	position: absolute;
+}
+
+.email {
+	background: url(../img/shutterstock_113174281-small.jpg
+		) 100% 100% no-repeat;
+	background-size: cover;
+	height: 500px ;
+	width: 100%;
+	margin-top: 0;
+	position: relative;
+	z-index: 1;
+	
+}
+
+.email .emailIn {
+	position: absolute;
+	width: 100%;
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+	}
+.email .emailIn h1 {
+	font-family: 'Roboto Slab', serif;
+	width: 60%;
+	margin-left: calc(50% - 30%);
+	font-size: 40px;
+	color: #FFFFFF;
+	margin-top:0;
+	text-align: center;
+}
+.email .emailIn .input {
+	width: 50%;
+	margin-left: calc(50% - 25%) ;
+}
+.email .emailIn div input {
+	height: 40px;
+	width: 74%;
+	border-radius: 5px;
+	font-size: 25px;
+	padding-left: 15px;
+	padding-bottom: 0;
+	border:0;
+	padding-top:0;
+}
+.email .emailIn div button {
+	height: 40px;
+	width: 20%;
+	border-radius: 5px;
+	border: 0;
+	background-color: #0080FF;
+	color: #FFFFFF;
+	margin: 0;
+	float:top;
+	font-size:25px;
+}
+
+
+.iconsWrapp {
+	background:#F2F2F2;
+}
+.iconsWrapp .container {
+	width: 85%;
+	margin-left: 10%;
+	
+}
+.iconsWrapp .container .contentWrapp {
+	width: 32%;
+	display: inline-block;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	
+	
+}
+.iconsWrapp .container .contentWrapp * {
+	text-align: center;
+	
+}
+.iconsWrapp .container .contentWrapp .icon {
+	height: 65px;
+}
+.iconsWrapp .container .contentWrapp p {
+	font-size: 50px;
+	color: #2E9AFE;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.iconsWrapp .container .contentWrapp p:hover {
+	zoom:1.1;
+}
+.iconsWrapp .container .contentWrapp h1 {
+	font-family: 'Roboto Slab', serif;
+}
+.iconsWrapp .container .contentWrapp h3 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 200;
+}
+
+
+.imageWrapp .content {
+	width: 50%;
+	float: left;
+	height: 450px;
+}
+.imageWrapp .content img {
+	size: cover;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+.imageWrapp .content .textContent {
+	padding-left: 15%;
+	padding-right: 15%;
+	position: relative;
+} 
+.imageWrapp .content .textContent .text {
+	position: absolute;
+    top: 50%;
+    transform: translateY(25%);
+}
+.imageWrapp .content .textContent .text h1 {
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif;
+	width: 69%;
+}
+.imageWrapp .content .textContent .text p {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 200;
+	font-size: 20px;
+	width: 69%;
+}
+
+
+.imageWrappMobile {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+.emailDown {
+	background: url(../img/shutterstock_113174281-small.jpg
+		) 100% 100% no-repeat;
+	background-size: cover;
+	height: 350px ;
+	width: 100%;
+	position: relative;
+	}
+.emailDown .emailIn {
+	width: 100%;
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+	}
+.emailDown .emailIn h1 {
+	font-family: 'Roboto Slab', serif;
+	width: 60%;
+	margin-left: calc(50% - 30%);
+	font-size: 40px;
+	color: #FFFFFF;
+	margin-top:0;
+	text-align: center;
+}
+.emailDown .emailIn .input {
+	width: 50%;
+	margin-left: calc(50% - 25%) ;
+}
+.emailDown .emailIn div input {
+	height: 40px;
+	width: 74%;
+	border-radius: 5px;
+	font-size: 20px;
+	border:0;
+	padding-left: 15px;
+}
+.emailDown .emailIn div button {
+	height: 40px;
+	width: 20%;
+	border-radius: 5px;
+	border: 0;
+	background-color: #0080FF;
+	color: #FFFFFF;
+	margin: 0;
+	font-size: 20px;
+}
+
+.bottom {
+	background: #FAFAFA;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.bottom .right {
+	text-align: top;
+	padding-bottom: 15px;
+	
+}
+.bottom .right a {
+	color: #2E9AFE;
+	font-size: 30px;
+	margin-bottom: 40px;
+	float: right;
+	margin-right: 40px;
+}
+.bottom .right a:hover {
+	color: #0080FF;
+}
+
+.bottom .left a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #2E9AFE;
+	
+}
+.bottom .left .padding{
+	padding-left: 60px;
+}
+.bottom .left p {
+	padding-left: 60px;
+}
+
+.bottom .left .dote::after {
+	content: "  . " ;
+	position: relative;
+	bottom: 5px;
+	color: black;
+	font-weight: 500;
+}
+.bottom .left a:hover {
+	color: #FFBF00;
+
+}
+.bottom .right , .bottom .left {
+	display: inline-block;
+	width: 48%;
+}
+
+
+
+
+
+@media only screen and (max-width: 500px){
+	.navigation {
+		display: none;
+	}
+	.header .mobile {
+		display: block;
+	}
+	.header #navbar-collapse {
+		width: 100%;
+		margin-top: 20px;
+		
+		z-index: 2;
+		position: relative;
+	}
+	.header #navbar-collapse .dote {
+		border-top: 1px solid blue;
+	}
+	.header #navbar-collapse .noDote {
+		border-bottom:1px solid blue;
+		border-top: 1px solid blue;
+	}
+	.header #navbar-collapse a {
+		font-family: 'Roboto Slab', serif;
+		border-right: 1px solid blue;
+		border-left: 1px solid blue;
+		display: block;
+		text-decoration: none;
+		font-size:35px;
+		height:45px;
+		background-color:  white;
+	}
+	.header #navbar-collapse a:hover {
+		color: #FFBF00;
+	}
+	.header p {
+		font-size: 15px;
+	}
+	.header button {
+		position: absolute;
+		right: 30%;
+		top: 10px;
+		width: 20%;
+	}
+
+
+	.email .emailIn h1 {
+		width: 95%;
+		margin-left:0;
+		text-align: center;
+	}
+	.email .emailIn .input  {
+		width: 96%;
+		margin: 0;
+		margin-left: 2%;
+		}
+	.email .emailIn div input , .email .emailIn div button {
+		width: 100%;
+		padding-left:0;
+		
+
+	}
+	.email .emailIn div button {
+		margin-top: 5px;
+	}
+
+	.iconsWrapp .container {
+		width: 100%;
+		margin:0;
+	}
+	.iconsWrapp .container .contentWrapp {
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin:0;
+		padding-top: 100px;
+		
+	}
+	.iconsWrapp .container .lastContentWrapp {
+		padding-bottom: 100px;
+	}
+
+	
+
+	.imageWrapp {
+		display: none;
+	}
+	.imageWrappMobile {
+		display: block;
+	}
+	.imageWrappMobile .content {
+		width: 100%;
+		height: 325px;
+		padding-bottom:30px;
+	}
+	.imageWrappMobile .content img {
+	size: cover;
+	overflow: hidden;
+	height: 100%;
+	max-width: 100%;
+	}
+	.imageWrappMobile .content .textContent {
+	padding-left: 9%;
+	position: relative;
+	} 
+	.imageWrappMobile .content .textContent .text *{
+		text-align: center;
+	}
+	.imageWrappMobile .content .textContent .text h1 {
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif;
+	width: 90%;
+	}
+	.imageWrappMobile .content .textContent .text p {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 200;
+	font-size: 20px;
+	width: 90%;
+	}
+
+
+
+
+
+
+
+
+
+	.emailDown .emailIn .input  {
+		width: 96%;
+		margin: 0;
+		margin-left: 2%;
+		}
+	.emailDown .emailIn h1 {
+		width: 95%;
+		margin:auto;
+	}
+	.emailDown .emailIn .input  {
+		width: 95%;
+		margin: auto;
+		}
+	.emailDown .emailIn div input , .emailDown .emailIn div button {
+		width: 100%;
+		padding-left:0;
+
+	}
+	.emailDown .emailIn div button {
+		margin-top:5px;
+	}
+	.bottom .right , .bottom .left {
+		display: block;
+		text-align: center;
+		width: 100%;
+		margin:0;
+	}
+	.bottom .right * , .bottom .left * {
+		text-align: center;
+		margin:0;
+	}
+	.bottom .right a {
+		float:none;
+	}
+	.bottom .left .padding {
+		padding:0;
+	}
+	
+
+
+}
